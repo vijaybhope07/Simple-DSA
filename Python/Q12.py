@@ -1,0 +1,6 @@
+# Q12.py - Program to Find Largest Among Three Numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+largest = max(a, b, c)
+print(f"Largest number is: {largest}")

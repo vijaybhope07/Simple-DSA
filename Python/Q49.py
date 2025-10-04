@@ -1,0 +1,10 @@
+# Q49.py - Program to Multiply Two Matrices by Passing Matrix to a Function
+def multiply_matrices(A, B):
+    result = [[sum(A[i][k]*B[k][j] for k in range(len(B))) for j in range(len(B[0]))] for i in range(len(A))]
+    return result
+
+A = [[1,2],[3,4]]
+B = [[5,6],[7,8]]
+print("Result:")
+for row in multiply_matrices(A,B):
+    print(row)
