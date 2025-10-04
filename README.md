@@ -3,6 +3,7 @@
 ## Questions to be solved:
 
 ### NOTE: You can contribute in any language
+### NOTE: Make sure to add your profile details to contributors.json in [Quiver 2025](https://github.com/noodles-sed/hacktober-base)
 
 1. "Hello, World!" Program
 2. Program to Print an Integer (Entered by the User)
@@ -67,4 +68,4 @@
 61. Program to Add Two Distances (in inch-feet) System Using Structures
 62. Program to Add Two Complex Numbers by Passing Structure to a Function
 
-# Thanks for your contributiona and also for participating in Hacktoberfest 2022✨🎉🎊🎉
+# Thanks for your contributiona and also for participating in Hacktoberfest 2025✨🎉🎊🎉
