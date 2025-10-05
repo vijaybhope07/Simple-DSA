@@ -1,28 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int num;
-    bool isPrime = true;
-
-    cout << "Enter a number: ";
-    cin >> num;
-
-    if (num <= 1) {
-        isPrime = false;
-    } else {
-        for (int i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                isPrime = false;
-                break;
-            }
-        }
+// Function for quotient and remainder
+void computeQuotientAndRemainder(int dividend, int divisor) {
+    if (divisor == 0) {
+        cout << "Error: Division by zero is not allowed!" << endl;
+        return;
     }
 
-    if (isPrime)
-        cout << num << " is a prime number." << endl;
-    else
-        cout << num << " is not a prime number." << endl;
+    int quotient = dividend / divisor;
+    int remainder = dividend % divisor;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder << endl;
+}
+
+// Main function
+int main() {
+    int dividend, divisor;
+
+    cout << "Enter dividend: ";
+    cin >> dividend;
+
+    cout << "Enter divisor: ";
+    cin >> divisor;
+
+    // Call the function
+    computeQuotientAndRemainder(dividend, divisor);
 
     return 0;
 }
