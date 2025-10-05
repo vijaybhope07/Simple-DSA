@@ -1,0 +1,11 @@
+# Prompt the user to enter an integer and store the input as a string
+user_input_str = input("Enter an integer: ")
+
+# Convert the string input to an integer
+# This step is crucial because input() always returns a string
+try:
+    user_integer = int(user_input_str)
+    # Print the converted integer
+    print("You entered:", user_integer)
+except ValueError:
+    print("Invalid input. Please enter a valid integer.")
