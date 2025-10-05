@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class CyclicSwap {
 
     // Wrapper class to hold an integer, allowing its value to be modified
