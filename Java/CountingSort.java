@@ -1,4 +1,4 @@
-package Java;
+
 
 public class CountingSort {
 
@@ -62,3 +62,4 @@ public class CountingSort {
         printArray(arr);
     }
 }
+
