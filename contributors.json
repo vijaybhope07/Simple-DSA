@@ -6,7 +6,6 @@
     "linkedin": "https://www.linkedin.com/in/madhavan-singh",
     "email": "madhavansingh32@gmail.com"
   },
-
   {
     "name": "Medha S Sunkad",
     "github": "https://github.com/MedhaSunkad13",
@@ -14,12 +13,18 @@
     "linkedin": "https://www.linkedin.com/in/medhasunkad13/",
     "email": "medhasunkad13@gmail.com"
   },
-
   {
     "name": "Arpit Gupta",
     "github": "https://github.com/ArpitGupta4957",
     "twitter": "NA",
     "linkedin": "https://www.linkedin.com/in/arpit-gupta-95b5a2250/",
     "email": "arpitgupta4957@gmail.com"
+  },
+  {
+    "name": "Aaron Correya",
+    "github": "https://github.com/AaronStark1",
+    "twitter": "NA",
+    "linkedin": "https://www.linkedin.com/in/aaron-correya/",
+    "email": "djaaronmirage123@gmail.com"
   }
 ]
